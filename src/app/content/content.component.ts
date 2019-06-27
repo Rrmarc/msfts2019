@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./content.component.scss']
 })
 export class ContentComponent implements OnInit {
+  private apiUrl= ""
 
   constructor() { }
+
+  // hero = {
+  //   name: "Super Hero Name",
+  //   universe: "Universe",
+  //   enemy: "Enemy"
+  // }
 
   ngOnInit() {
   }
